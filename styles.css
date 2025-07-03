@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    margin: auto;
+    padding: 8px;
+}
+
+.link {
+    list-style: none;
+    padding: 12px;
+    background-color: rgb(112, 189, 236, 100);
+    margin: 8px;
+}
+
+.link a {
+    display: inline-block;
+    padding: 20px;
+    margin: -10px;
+    width: 20.5em;
+}
+
+.recipe {
+    background-color: #FFFAFA;
+    border: 1px solid red;
+    width: 800px;
+    margin: 20px auto;
+}
+
+img {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+}
+
+.description {
+    vertical-align: top;
+    display: inline-block;
+    width: 460px;
+}
+
+.steps {
+    text-align: left;
+}
+
+span {
+    background-color: lightpink;
+    padding: 0px 3px;
+}
